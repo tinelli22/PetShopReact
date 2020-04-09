@@ -1,0 +1,9 @@
+.input {
+    width: 130%;
+}
+
+#span {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

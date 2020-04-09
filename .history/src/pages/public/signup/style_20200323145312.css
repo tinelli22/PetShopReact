@@ -1,0 +1,17 @@
+.pageSignup {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.jumbcont {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+@media screen and (max-width: 500px) {
+
+
+}

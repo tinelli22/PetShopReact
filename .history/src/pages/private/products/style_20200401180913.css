@@ -1,0 +1,7 @@
+.td {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Roboto;
+    text-align: end;
+}

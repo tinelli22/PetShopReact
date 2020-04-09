@@ -1,0 +1,108 @@
+.nav {
+    background-color: #690172;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.subnav {
+    background-color: #5b0063;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.typo {
+    display: flex;
+    padding: 10px;
+    color: #fff;
+}
+
+
+.typo :hover {
+    background-color: #4b0152;
+    cursor: pointer;
+    display: flex;
+}
+
+.drawerHeader {
+    color: #fff;
+    font-weight: bold;
+    font-family: Roboto;
+    padding: 10%;
+}
+
+.gridHome {
+    margin-top: 30px;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    font-family: Roboto;
+    color: #494949;
+}
+
+
+#btnPrimary {
+    margin: 10px;
+    background-color: #0458ac;
+    color: #fff;
+}
+
+#messageError {
+    background-color: #b40000;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .nav {
+        padding: 5px;
+    }
+
+    .subnav {
+        padding: 2px;
+    }
+
+    .typo {
+        padding: 3px;
+    }
+
+    #titleHome {
+        font-size: 30px;
+    }
+
+   
+
+}
+
+
+.navPrivate {
+    background-color: #2c2c2c;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.pageProduct {
+    background-color: #aabac456;
+    height: 100vh;
+}

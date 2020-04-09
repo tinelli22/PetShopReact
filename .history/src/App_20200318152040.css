@@ -1,0 +1,116 @@
+.nav {
+    background-color: rgb(105, 1, 114);
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.subnav {
+    background-color: rgb(91, 0, 99);
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.typo {
+    display: flex;
+    padding: 10px;
+}
+
+
+.typo :hover {
+    background-color: #4b0152;
+    cursor: pointer;
+    display: flex;
+}
+
+.drawerHeader {
+    color: #fff;
+    font-weight: bold;
+    font-family: Roboto;
+    padding: 10%;
+}
+
+.gridHome {
+    margin-top: 30px;
+}
+
+#titleHome {
+    text-align: center;
+    font-size: 50px;
+    font-family: Roboto;
+    color: rgb(73, 73, 73);
+}
+
+#hightLightHome {
+    text-align: left;
+    font-family: Roboto;
+    color: rgb(73, 73, 73);
+}
+
+#btnPrimary {
+    
+    background-color: #0458ac;
+    color: #fff;
+}
+
+#messageError {
+    background-color: #b40000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.pageLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #123456;
+    height: 100vh;
+}
+
+#paper {
+    background-color: #fff;
+    
+}
+
+@media screen and (max-width: 500px) {
+    .nav {
+        padding: 5px;
+    }
+
+    .subnav {
+        padding: 2px;
+    }
+
+    .typo {
+        padding: 3px;
+    }
+
+    #titleHome {
+        font-size: 30px;
+    }
+
+}
+
+
+.navPrivate {
+    background-color: #2c2c2c;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: Roboto;
+}

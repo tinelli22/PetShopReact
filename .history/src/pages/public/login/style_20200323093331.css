@@ -1,0 +1,28 @@
+#createAccount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.pageLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: 100vh;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 500px) {
+
+    .pageLogin {
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: 10%;
+    }
+
+}

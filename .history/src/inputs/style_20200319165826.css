@@ -1,0 +1,32 @@
+.input {
+    size: 100%;
+}
+
+.inputMoney {
+    padding: 5px;
+    border-radius: 4px;
+    width: 100%;
+    text-align: end;
+}
+
+.inputFile::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.inputFile::before {
+    background-color: #123456;
+}
+
+#span {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    cursor: pointer;
+    color: blue;
+}
+
+#label {
+    font-family: Roboto;
+    color: #141414;
+    font-weight: bold;
+}

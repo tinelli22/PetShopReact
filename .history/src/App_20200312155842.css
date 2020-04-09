@@ -1,0 +1,9 @@
+.nav {
+    background-color: rgb(19, 2, 248);
+    border-bottom: 2px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

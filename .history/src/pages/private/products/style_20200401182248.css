@@ -1,0 +1,12 @@
+.td {
+    justify-content: center;
+    font-family: Roboto;
+    text-align: end;
+}
+
+.actions {
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: Roboto;
+    text-align: end;
+}

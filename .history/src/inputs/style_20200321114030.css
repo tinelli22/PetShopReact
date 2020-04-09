@@ -1,0 +1,44 @@
+.input {
+    size: 100%;
+}
+
+.inputMoney {
+    padding: 5px;
+    border-radius: 4px;
+    width: 100%;
+    text-align: end;
+}
+
+.inputFile::-webkit-file-upload-button {
+    visibility: hidden;
+    content: none;
+}
+
+.inputFile {
+    background-color: blue;
+}
+
+
+#span {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    cursor: pointer;
+    color: blue;
+}
+
+#label {
+    font-family: Roboto;
+    color: #141414;
+    font-weight: bold;
+}
+
+.uploadArea {
+    border: 3px dashed #3f3f3f;
+    height: 200px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,60 @@
+.nav {
+    background-color: #690172;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+#title {
+    text-align: left;
+    font-size: 50px;
+    font-family: Roboto;
+    color: #494949;
+}
+
+
+#btnPrimary {
+    margin: 10px;
+    background-color: #0458ac;
+    color: #fff;
+}
+
+#messageError {
+    background-color: #b40000;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.dropbtn {
+    color: #fff;
+    background-color: #57035f;
+    padding: 20px;
+    border: none;
+}
+
+.drop-content {
+    display: none;
+    background-color: #48024e;
+}
+
+.dropbtn:hover .drop-content {display: flex;}
+
+
+@media screen and (max-width: 500px) {
+    .nav {
+        padding: 5px;
+    }
+
+    #title {
+        font-size: 30px;
+    }
+
+   
+}
+

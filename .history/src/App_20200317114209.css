@@ -1,0 +1,100 @@
+.nav {
+    background-color: rgb(105, 1, 114);
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.subnav {
+    background-color: rgb(91, 0, 99);
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.typo {
+    display: flex;
+    padding: 10px;
+}
+
+
+.typo :hover {
+    background-color: rgb(75, 1, 82);
+    cursor: pointer;
+    display: flex;
+}
+
+.drawerHeader {
+    background-color: rgb(75, 1, 82);
+    color: #fff;
+    font-weight: bold;
+    font-family: Roboto;
+    padding: 10%;
+}
+
+.gridHome {
+    margin-top: 30px;
+
+}
+
+#titleHome {
+    text-align: center;
+    font-size: 50px;
+    font-family: Roboto;
+    color: rgb(73, 73, 73);
+}
+
+#hightLightHome {
+    text-align: left;
+    font-family: Roboto;
+    color: rgb(73, 73, 73);
+}
+
+.formControl {
+    
+
+}
+
+.btnPrimary {
+    background-color: #123456;
+    color: #fff;
+    
+}
+
+.pageLogin {
+    padding: 60px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 500px) {
+    .nav {
+        padding: 5px;
+    }
+
+    .subnav {
+        padding: 2px;
+    }
+
+    .typo {
+        padding: 3px;
+    }
+
+    #titleHome {
+        font-size: 30px;
+    }
+
+    .pageLogin {
+        margin: 50px;
+    }
+
+}

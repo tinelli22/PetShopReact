@@ -1,0 +1,1 @@
+export const urlCep = cep => `http://viacep.com.br/ws/${cep}/json/`

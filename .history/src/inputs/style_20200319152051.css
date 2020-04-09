@@ -1,0 +1,22 @@
+.input {
+    size: 100%;
+}
+
+.inputMoney {
+    padding: 30px;
+    border-radius: 4px;
+}
+
+#span {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    cursor: pointer;
+    color: blue;
+}
+
+#label {
+    font-family: Roboto;
+    color: #141414;
+    font-weight: bold;
+}

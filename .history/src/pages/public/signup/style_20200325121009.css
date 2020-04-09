@@ -1,0 +1,13 @@
+
+.jumbcont {
+    
+}
+
+@media screen and (max-width: 500px) {
+
+    .jumbcont {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+}

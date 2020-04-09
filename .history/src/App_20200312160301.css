@@ -1,0 +1,19 @@
+.nav {
+    background-color: rgb(105, 1, 114);
+    
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subnav {
+    background-color: rgb(91, 0, 99);
+    
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

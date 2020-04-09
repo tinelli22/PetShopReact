@@ -1,0 +1,27 @@
+.nav {
+    background-color: rgb(105, 1, 114);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subnav {
+    background-color: rgb(91, 0, 99);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.typo {
+    padding: 5;
+}
+
+#label :hover {
+    background-color: rgb(75, 1, 82);
+}
